@@ -23,23 +23,23 @@ Decision trees are intuitive and interpretable models that partition the feature
 
 ## Preprocessing
 
-1. Lowercasing: The text data is converted to lowercase to ensure consistency.
+**Lowercasing:** The text data is converted to lowercase to ensure consistency.
 
-2. Punctuation Removal: Punctuation marks are removed from the text to eliminate unnecessary noise.
+**Punctuation Removal:** Punctuation marks are removed from the text to eliminate unnecessary noise.
 
-3. Tokenization: The text is tokenized into individual words or tokens to prepare it for further processing.
+**Tokenization:** The text is tokenized into individual words or tokens to prepare it for further processing.
 
-4. Stopword Removal: Stopwords, such as common words like "and" or "the," are removed from the text as they often don't carry significant meaning.
+**Stopword Removal:** Stopwords, such as common words like "and" or "the," are removed from the text as they often don't carry significant meaning.
 
-5. Lemmatization: Words are lemmatized to reduce them to their base or root form. This helps in reducing word variations and improving the consistency of the data.
+**Lemmatization:** Words are lemmatized to reduce them to their base or root form. This helps in reducing word variations and improving the consistency of the data.
 
 These preprocessing steps help in cleaning the text data, reducing noise, and improving the quality of features for the machine learning model.
 
 ## Results
 
-SVM achieved the highest accuracy among the algorithms tested, It achieved an accuracy of 0.94%, precision of 0.94%, recall of 0.93%, and F1 score of 0.94%.
+**SVM** achieved the highest accuracy among the algorithms tested, It achieved an accuracy of 0.94%, precision of 0.94%, recall of 0.93%, and F1 score of 0.94%.
 
-Decision Trees yielded the lowest accuracy among the algorithms tested, with an accuracy of 0.80%, precision of 0.79%, recall of 0.80%, and F1 score of 0.80%.
+**Decision Trees** yielded the lowest accuracy among the algorithms tested, with an accuracy of 0.80%, precision of 0.79%, recall of 0.80%, and F1 score of 0.80%.
 
 ## Contributing
 
